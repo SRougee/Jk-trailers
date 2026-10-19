@@ -1,0 +1,8 @@
+name = "jk-trailers"
+compatibility_date = "2026-10-19"
+
+[build]
+command = "mkdir -p dist && cp jk-trailers.html dist/index.html"
+
+[assets]
+directory = "./dist"
